@@ -99,8 +99,12 @@ set ch=2
 set virtualedit=all
 
 " remaps
-" {
+" {                  k
 imap <C-d> <C-r>=system('php ~/bin/date.php')<CR>
+
+nmap <leader>r :!phpctags -C ~/.phpctags -R -f ~/myphp.tags /home/mirror ~/vendor<CR>
+" nmap <leader>r :tabedit<CR>
+
 nmap <leader>v :tabedit $MYVIMRC<CR>
 nmap <leader>f :set fmr={,} fdm=marker<CR>
 nnoremap <leader>c :set cursorline!<CR>
