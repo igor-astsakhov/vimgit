@@ -140,8 +140,8 @@ set modifiable
 set cpoptions+=$
 " colo wombat256
 " colo kafka
-colo desert256
-"colo moonshine_lowcontrast
+"colo desert256
+colo moonshine_lowcontrast
 if has( 'autocmd' )
     filetype on
     filetype indent plugin on
