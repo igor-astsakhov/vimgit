@@ -20,6 +20,7 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-syntastic/syntastic'
 " Plugin 'ycm-core/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
+Plugin 'tpope/vim-fugitive'
 Plugin 'honza/vim-snippets'
 " Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
