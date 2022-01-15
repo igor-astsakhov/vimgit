@@ -303,6 +303,15 @@ set statusline+=%*
 set sessionoptions-=help
 set sessionoptions-=options
 
+" nnoremap <leader>so :OpenSession 
+" nnoremap <leader>ss :SaveSession 
+" nnoremap <leader>sd :DeleteSession<CR>
+" nnoremap <leader>sc :CloseSession<CR>
+" let g:session_directory = \"~/.vim/tmp/session\"
+" let g:session_autoload = "no"                   // automatic reload sessions
+" let g:session_autosave = "no"                   // autosave
+" let g:session_command_aliases = 1
+
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
