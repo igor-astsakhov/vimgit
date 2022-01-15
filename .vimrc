@@ -25,6 +25,9 @@ Plugin 'honza/vim-snippets'
 " Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
 
+" to tryout:
+" Plugin 'xolox/vim-session'
+
 Plugin 'preservim/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'ryanoasis/vim-devicons'
@@ -295,6 +298,10 @@ let g:SimpylFold_docstring_preview=1
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+
+" sessions configs
+set sessionoptions-=help
+set sessionoptions-=options
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
